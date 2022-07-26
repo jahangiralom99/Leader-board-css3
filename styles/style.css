@@ -120,9 +120,22 @@ top blog style
     color: #FF4A60;
 }
 /* --------------
----- mida quary ----
+---- mida quaries ----
 ---------------------*/
-@media omly screen and (max-width:688px){
-                                                                                                                     
-}
+/* mobile  */
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+    }
+        .Top-players, .blogs, .courses{
+            grid-template-columns: repeat(1, 1fr);
+        }
+       .blogs,.courses{
+        text-align: center;     
+    }  
+ }
+
  
