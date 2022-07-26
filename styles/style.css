@@ -1,0 +1,127 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@0;1&family=Poppins:ital,wght@1,500&family=Roboto+Slab&display=swap');
+
+/* common style */
+body{
+    font-family: 'Gentium Book Plus', serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        background-color: #E5E5E5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+hr{
+border: 1px solid #D1D1D1;
+margin-bottom: 27px;
+}
+/* top player style*/
+
+.player-title{
+  color: #562EFF;
+  font-size: 24px;
+  margin-top: 3px;
+}
+.Top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #ffff;
+    grid-row-gap: 30px;
+  
+
+}
+.Top-players{
+    margin-bottom: 30px;
+
+}
+.player{
+    display: flex;
+   align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* top blogs styles  */
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+    color: #562EFF;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px ;
+}
+.blog-title{
+    font-size: 20px;
+    }
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+/* -------------
+top blog style  
+--------------*/
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 24px;
+}
+
+/* corse bunner */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course .cours-benner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    
+}
+.fa-clock{
+    color: #FF4A60;
+}
+/* --------------
+---- mida quary ----
+---------------------*/
+@media omly screen and (max-width:688px){
+                                                                                                                     
+}
+ 
